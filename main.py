@@ -27,7 +27,7 @@ def mune():
     print('0.返回上级菜单')
     print('1.圆面积计算')
     print('2.正方形面积计算')
-    var=eval(input())
+    var=int(input())
     if var == 1 :
         sanjiaoxing()
     elif var == 2 :
