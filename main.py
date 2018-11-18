@@ -17,21 +17,29 @@ def sanjiaoxing() :
             print('圆的面积为:',pf*π)
             time.sleep(0.5)
             print('计算完成')
-        else:
-            print('计算失败')
+        elif r == 0:
+            vr=vr-1
             mune()
+        else:
+            print('计算失败')               
 def mune():
     print('请选择你的计算方式')
-    print('0.帮助')
     print('1.圆面积计算')
     print('2.正方形面积计算')
+    var=int(input())
+    if var == 1:
+        sanjiaoxing()
+    elif var == 2 :
+        square()
 def square():
+    vr=1
     while vr == 1:
         print('请输入两个数字，我们将计算它的四边形面积：')
         time.sleep(1)
         print('请输入a的长度')
         a=int(input())
         if a == 0:
+            vr=vr-1
             mune()
         else:
             time.sleep(0.5)
