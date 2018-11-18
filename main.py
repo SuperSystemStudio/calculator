@@ -8,7 +8,7 @@ print('使用规则：')
 print('         1.禁止输入<0或>100000000的数')
 print('         1.禁止输入字母')
 time.sleep(0.5)
-var=1
+var=int(input())
 while var == 1 :
     print('请输入一个数字，我们将计算它的圆面积：')
     time.sleep(1)
@@ -25,3 +25,5 @@ while var == 1 :
         print('计算完成')
     else:
         print('计算失败')
+while var == 2:
+    print('请输入一个数字，我们将计算它的圆面积：')
