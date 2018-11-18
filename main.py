@@ -1,6 +1,7 @@
 import math
 import time
 import os
+def f
 def sanjiaoxing() :
     time.sleep(0.5)
     vr=1
@@ -68,7 +69,8 @@ print('作者：Mr.yan')
 time.sleep(0.5)
 print('使用规则：')
 print('         1.禁止输入<0或>100000000的数')
-print('         1.禁止输入字母')
+print('         2.禁止输入字母')
+print('         3.禁止输入类似于05、04这样的文字')
 time.sleep(0.5)
 mune()
 var=int(input())
