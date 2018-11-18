@@ -67,7 +67,11 @@ time.sleep(0.5)
 print('作者：Mr.yan')
 time.sleep(0.5)
 print('使用规则：')
+<<<<<<< HEAD
 print('         1.禁止输入<0或>100000000的数')
+=======
+print('         1.禁止输入>100000000或<0的数')
+>>>>>>> 0587e75c0d1577365ddeecc0c53c83290d1fa555
 print('         1.禁止输入字母')
 time.sleep(0.5)
 mune()
