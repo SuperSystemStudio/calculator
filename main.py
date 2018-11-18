@@ -25,5 +25,3 @@ while var == 1 :
         print('计算完成')
     else:
         print('计算失败')
-while var == 2:
-    print('请输入一个数字，我们将计算它的圆面积：')
