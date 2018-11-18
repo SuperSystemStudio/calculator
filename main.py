@@ -20,7 +20,6 @@ def sanjiaoxing() :
         else:
             print('计算失败')
             mune()
-
 def mune():
     print('请选择你的计算方式')
     print('0.帮助')
