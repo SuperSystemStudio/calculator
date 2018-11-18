@@ -9,7 +9,7 @@ def sanjiaoxing() :
         time.sleep(1)
         π=3.14
         r=eval(input())
-        if 10000000>= r:
+        if 10000000>= r >0:
             pf=r*r
             print('获得半径为：',r)
             time.sleep(1)
