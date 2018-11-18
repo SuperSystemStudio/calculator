@@ -1,1 +1,1 @@
-# calculator #   [![Latest release](https://github.com/super-system-studio/calculator/releases)   [![License]
+# calculator #   [![Latest release](https://img.shields.io/github/release/Mojang/DataFixerUpper.svg)](https://github.com/super-system-studio/calculator/releases)   [![License](https://img.shields.io/github/license/Mojang/DataFixerUpper.svg)]
