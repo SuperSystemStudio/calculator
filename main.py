@@ -59,4 +59,3 @@ if var == 1:
     sanjiaoxing()
 elif var == 2 :
     square()
-    
