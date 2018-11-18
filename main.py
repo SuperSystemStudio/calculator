@@ -51,7 +51,7 @@ def square():
             time.sleep(0.5)
             print('请输入b的长度')
             b=eval(input())
-            if a == 0:
+            if b == 0:
                 vr=vr-1
                 mune()
             else:    
