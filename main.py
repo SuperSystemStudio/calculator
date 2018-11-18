@@ -18,14 +18,14 @@ def sanjiaoxing() :
             print('圆的面积为:',pf*π)
             time.sleep(0.5)
             print('计算完成')
-        elif r == 0:
+        elif r == exit:
             vr=vr-1
             mune()
         else:
             print('计算失败')               
 def mune():
     print('请选择')
-    print('0.返回上级菜单')
+    print('exit.返回上级菜单')
     print('1.圆面积计算')
     print('2.正方形面积计算')
     print('3.退出程序')
@@ -44,14 +44,14 @@ def square():
         print('请输入两个数字，我们将计算它的四边形面积：')
         print('请输入a的长度')
         a=eval(input())
-        if a == 0:
+        if a == exit:
             vr=vr-1
             mune()
         else:
             time.sleep(0.5)
             print('请输入b的长度')
             b=eval(input())
-            if b == 0:
+            if b == exit:
                 vr=vr-1
                 mune()
             else:    
