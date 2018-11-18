@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['c:\\Users\\Administrator\\Documents\\Python\\Circular area'],
+             pathex=['H:\\my\\calculator'],
              binaries=[],
              datas=[],
              hiddenimports=[],
