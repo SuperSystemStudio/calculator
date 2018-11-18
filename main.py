@@ -1,5 +1,6 @@
 import math
 import time
+import os
 def sanjiaoxing() :
     time.sleep(0.5)
     vr=1
@@ -8,7 +9,7 @@ def sanjiaoxing() :
         time.sleep(1)
         π=3.14
         r=eval(input())
-        if 10000000>= r > 0:
+        if 10000000>= r:
             pf=r*r
             print('获得半径为：',r)
             time.sleep(1)
@@ -27,6 +28,7 @@ def mune():
     print('0.返回上级菜单')
     print('1.圆面积计算')
     print('2.正方形面积计算')
+    print('3.退出程序')
     var=int(input())
     if var == 1 :
         sanjiaoxing()
@@ -34,6 +36,8 @@ def mune():
         square()
     elif var == 0:
         mune()
+    elif var == 3:
+        os._exit(0)
 def square():
     vr=1
     while vr == 1:
@@ -63,7 +67,7 @@ time.sleep(0.5)
 print('作者：Mr.yan')
 time.sleep(0.5)
 print('使用规则：')
-print('         1.禁止输入<0或>100000000的数')
+print('         1.禁止输入>100000000的数')
 print('         1.禁止输入字母')
 time.sleep(0.5)
 mune()
@@ -74,3 +78,5 @@ elif var == 2 :
     square()
 elif var == 0:
     mune()
+elif var == 3:
+    os._exit(0)
