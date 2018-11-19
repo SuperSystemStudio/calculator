@@ -1,8 +1,7 @@
 import math
 import time
 import os
-def f
-def sanjiaoxing() :
+def yuanxing() :
     time.sleep(0.5)
     vr=1
     while vr == 1 :
@@ -23,7 +22,7 @@ def sanjiaoxing() :
             vr=vr-1
             mune()
         else:
-            print('参数错误')               
+            print('参数错误，请重新输入')               
 def mune():
     print('请选择')
     print('0.返回上级菜单')
@@ -75,7 +74,7 @@ time.sleep(0.5)
 mune()
 var=int(input())
 if var == 1:
-    sanjiaoxing()
+    yuanxing()
 elif var == 2 :
     square()
 elif var == 0:
