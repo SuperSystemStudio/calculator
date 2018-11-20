@@ -3,7 +3,7 @@ sudo: enabled
 services:
 - mysql
 python:
-- "3.7"
+- "3.5"
 env:
 global:
 - TRAVIS=true
