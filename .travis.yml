@@ -8,6 +8,7 @@ env:
 global:
 - TRAVIS=true
 # command to install dependenci   
-script: 
-    pyinstaller -F main.py
+script:
+    - pip install pyinstaller
+    - pyinstaller -F main.py
 
