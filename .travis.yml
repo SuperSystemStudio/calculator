@@ -10,6 +10,5 @@ global:
 # command to install dependenci   
 script: 
     python main.py test
-    
-    
-    3
+after_success:  
+     3
