@@ -81,6 +81,5 @@ elif var == 0:
     mune()
 elif var == 3:
     os._exit(0)
-else :
-    time.sleep(80)
-    os._exit(0)
+time.sleep(80)
+os._exit(0)
