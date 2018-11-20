@@ -10,4 +10,3 @@ global:
 # command to install dependenci   
 script: 
     python main.py test
-    3
