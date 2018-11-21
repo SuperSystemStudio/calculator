@@ -1,7 +1,21 @@
-from distutils.core import setup
-setup(
-    name = 'calculator',
-    version = 'V1.0',
-    py_modules = ['calculator']
-    anthor = 'Mr.yan'  
-)
+from setuptools import setup, find_packages
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+with open('requirements.txt') as f:
+    requirements = [l for l in f.read().splitlines() if l]
+
+setup(name="calculator215",  # 项目名
+      version="V1.0",       # 版本号
+      description="Python Weixin API client support wechat-app",  #简介
+      long_description=long_description,  # 长简介 这里使用的 readme 内容
+      long_description_content_type="text/markdown",
+      license="MIT",   # 授权
+      install_requires=requirements, # 依赖
+      author="Mryan",  # 作者
+      author_email="A2564011261@163.com",  # 邮箱
+      url="https://github.com/super-system-studio/calculator",  # 地址
+      packages=find_packages(),
+      keywords=["python-weixin", "weixin", "wechat", "sdk", "weapp", "wxapp"],
+      zip_safe=True)
