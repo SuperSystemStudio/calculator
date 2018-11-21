@@ -72,12 +72,3 @@ print('         2.禁止输入字母')
 print('         3.禁止输入类似于05、04这样的文字')
 time.sleep(0.5)
 mune()
-var=int(input())
-if var == 1:
-    yuanxing()
-elif var == 2 :
-    square()
-elif var == 0:
-    mune()
-elif var == 3:
-    os._exit(0)
