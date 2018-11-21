@@ -5,8 +5,8 @@ script:
     - pip install pyinstaller
     - pyinstaller -F main.py
 after_script:
-  - git config user.name "Mryan2005"
-  - git config user.email "A2564011261@163.com"
+  - git config user.name "Mryan04"
+  - git config user.email "A2564011261@126.com"
   - git add .
   - git commit -m "Update"
   - git push --force --quiet "https://${Token_Token}@${GH_REF}" master:master
