@@ -1,7 +1,0 @@
-README.md
-setup.py
-calculator215.egg-info/PKG-INFO
-calculator215.egg-info/SOURCES.txt
-calculator215.egg-info/dependency_links.txt
-calculator215.egg-info/top_level.txt
-calculator215.egg-info/zip-safe
