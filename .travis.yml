@@ -7,8 +7,8 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "Mryan2005" --{GitHub账户名称}
-  - git config user.email "A2564011261@163.com" --{Github账户邮箱}
+  - git config user.name "Mryan2005"
+  - git config user.email "A2564011261@163.com"
   - git add .
   - git commit -m "Update"
   - git push --force --quiet "https://github.com/super-system-studio/calculator-exe.git" master:master
