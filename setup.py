@@ -7,7 +7,7 @@ with open('requirements.txt') as f:
     requirements = [l for l in f.read().splitlines() if l]
 
 setup(name="calculator215",  # 项目名
-      version="V1.0",       # 版本号
+      version="V1.1",       # 版本号
       description="Python Weixin API client support wechat-app",  #简介
       long_description=long_description,  # 长简介 这里使用的 readme 内容
       long_description_content_type="text/markdown",
