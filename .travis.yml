@@ -4,12 +4,14 @@ python:   # 指定运行环境，这里会分别在 2.7 和 3.5 运行
   - '3.5' 
 install:
   - pip install -r requirements.txt   # 安装依赖
-script:   # 如果有单元测试这里应该执行单元测试
-deploy:
+script:
+    - pip install pyinstaller # 如果有单元测试这里应该执行单元测试
+    - pyinstaller -F main.py
+    deploy:
   provider: pypi
   user: Mryan     # pypi 用户名
   password: A13788045733  # pypi 密码
   on:
-    python: 2.7
+    python: 3.5
     tags: true
     branch: master
