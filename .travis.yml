@@ -5,8 +5,6 @@ script:
     - pip install pyinstaller
     - pyinstaller -F main.py
 after_script:
-  - cd ./public
-  - git init
   - git config user.name "Mryan2005"
   - git config user.email "A2564011261@163.com"
   - git add .
