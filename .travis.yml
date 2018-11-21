@@ -12,11 +12,6 @@ after_script:
   - git add .
   - git commit -m "Update"
   - git push --force --quiet "https://github.com/super-system-studio/calculator-exe.git" master:master
-# E: Build LifeCycle
-
-branches:
-  only:
-    - master --{Hexo源码分支名称}
 env:
  global:
    - GH_REF: https://github.com/super-system-studio/calculator-exe.git --{仓库地址}
