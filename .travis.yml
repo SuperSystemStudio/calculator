@@ -9,7 +9,7 @@ after_script:
   - git config user.email "A2564011261@163.com"
   - git add .
   - git commit -m "Update"
-  - git push --force --quiet "https://github.com/super-system-studio/calculator-exe.git" master:master
+  - git push --force --quiet "https://${Travis_Token}@${GH_REF}" master:master
 env:
  global:
    - secure: "67YICR3HJM8wuNp8ktToj/MWs8uWYq8c/PzNf17FSC/wZyhP9GpL8D75cvNrv7I21iPNQ/dOT5OnZ5nKupeSFa/oFgePdFbZbyVZSJ2pvJFF0DMODyYPzzrGMZ2JS2ZOQUpFp3n0Bxf+dRBVbFyplINRg3cWpHhZ/UrMTm93g1u+K2txa3CzgaAGTsffyBLgfrpS1dxCzPT7RzqBdgg7pscHMNZRw1eV3TjKJaCuLwweu19xvBNG4l1dzsm3eIzELPp42IJbQBu5v195IyAtGLQJdma3n+YX+wwLhJQEUzI/rI/eC3T7JWqH6Ic01K3OfFEuSU+c8wArfuheWaBx1cmpGOPc2NwGAaBlcq19QgSygeMgrH4aApkZlWizx4FPXqhyrH/OZnQfzdwBTS77oxYZeIOJy8TlztB2NgcO40uu04u4aoLfegTZ51SBzmqvTteYNyg+4OZC6EYQ/5y9M/+/TEPs5xwaSaAYRN8QGFUOWwuUqtcgJYHVqJOtym7OSpazLAwsRfn4NGtO7vs0A5dnDYHGt2WxGS3NKXqOUXIokRiyYl04skUDDNFNaP+Xt38Ac9CwRHJTLI4WEprqyRt80cg/nEh3T/Y5rTxRU6ICtChnGLK+R7BHctWoSAsz+um3anW/9Zn301JspN2a6mSZ6Hg0Fb7HwcsEisln5t4="
