@@ -4,3 +4,19 @@ python:
 script:
     - pip install pyinstaller
     - pyinstaller -F main.py
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "Mryan200" --{GitHub账户名称}
+  - git config user.email "A2564011261@163.com" --{Github账户邮箱}
+  - git add .
+  - git commit -m "Update"
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+# E: Build LifeCycle
+
+branches:
+  only:
+    - master --{Hexo源码分支名称}
+env:
+ global:
+   - GH_REF: https://github.com/super-system-studio/calculator-exe.git --{仓库地址}
