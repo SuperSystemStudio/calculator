@@ -27,7 +27,8 @@ def mune():
     print('0.返回上级菜单')
     print('1.圆面积计算')
     print('2.正方形面积计算')
-    print('3.退出程序')
+    print('3.圆的表面积')
+    print('4.关闭程序')
     var=int(input())
     if var == 1 :
         yuanxing()
@@ -36,6 +37,8 @@ def mune():
     elif var == 0:
         mune()
     elif var == 3:
+        yuanbiaomianji()
+    elif var == 4:
         os._exit(0)
 def square():
     vr=1
@@ -61,6 +64,41 @@ def square():
                 print('四边形的面积为:',a*b)
                 time.sleep(0.5)
                 print('计算完成')
+def yuanbiaomianji():
+    vr=1
+    while vr == 1:
+        print('请输入圆面积')
+        print('请输入半径')
+        π=3.14
+        r=eval(input())
+        if 10000000>= r >0:
+            pf=r*r
+            print('获得半径为：',r)
+            time.sleep(1)
+            print('正在计算')
+            time.sleep(0.5)
+            print('计算完成')
+            yuanmianji=pf*π
+            print('请输入长')
+            a=eval(input())
+            if a == 0:
+                mune()
+            else:
+                print('请输入宽')
+                b=eval(input())
+                if b == 0:
+                    mune()
+                else:
+                    print('正在计算')
+                    print('圆的表面积为',a*b+2*yuanmianji)
+        elif r == 0:
+            vr=vr-1
+            mune()
+        else:
+            print('error')            
+    
+
+
 print('软件加载成功')
 time.sleep(0.5)
 print('作者：Mr.yan')
