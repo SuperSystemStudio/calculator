@@ -67,7 +67,8 @@ def square():
 def yuanbiaomianji():
     vr=1
     while vr == 1:
-        print('请输入圆面积')
+        print('正在加载')
+        time.sleep(0.5)
         print('请输入半径')
         π=3.14
         r=eval(input())
