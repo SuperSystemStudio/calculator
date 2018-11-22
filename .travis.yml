@@ -1,16 +1,9 @@
 language: python
 python:  
   - '3.5'
-install:
-  - pip install codecov
-  - pip install coverage 
 script:
     - pip install --upgrade pyflakes
     - pyflakes main.py
-    - nosetests -sv --with-coverage --cover-tests --cover-package=py_http_api_test tests
-    - nosetests -c demo/nose.cfg demo
-after_success:
-  - codecov
 branches:
   only:
     - master
