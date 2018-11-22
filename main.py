@@ -23,7 +23,7 @@ def yuanxing() :
         else:
             print('error')               
 def mune():
-    print('请选择')
+    print('请选择你要选择的选项')
     print('0.返回上级菜单')
     print('1.圆面积计算')
     print('2.正方形面积计算')
