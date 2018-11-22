@@ -8,5 +8,5 @@ branches:
   only:
     - master
 notifications:
-  webhooks: {webhooks}
+  webhooks: ${webhooks}
  
