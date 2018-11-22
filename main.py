@@ -22,7 +22,7 @@ def yuanxing() :
             vr=vr-1
             mune()
         else:
-            print('参数错误，请重新输入')               
+            print('error')               
 def mune():
     print('请选择')
     print('0.返回上级菜单')
