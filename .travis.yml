@@ -8,7 +8,7 @@ script:
     - pip install --upgrade pyflakes
     - pyflakes main.py
     - coverage run tests.py
-    - codecov --token=<CODECOV_TOKEN>
+    - codecov
 branches:
   only:
     - master
