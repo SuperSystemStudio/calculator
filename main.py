@@ -27,7 +27,7 @@ def mune():
     print('0.返回上级菜单')
     print('1.圆面积计算')
     print('2.正方形面积计算')
-    print('3.圆的表面积')
+    print('3.圆的表面积计算')
     print('4.关闭程序')
     var=int(input())
     if var == 1 :
