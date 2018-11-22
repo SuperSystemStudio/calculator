@@ -95,10 +95,7 @@ def yuanbiaomianji():
             vr=vr-1
             mune()
         else:
-            print('error')            
-    
-
-
+            print('error')
 print('软件加载成功')
 time.sleep(0.5)
 print('作者：Mr.yan')
