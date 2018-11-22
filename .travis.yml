@@ -7,7 +7,8 @@ install:
 script:
     - pip install --upgrade pyflakes
     - pyflakes main.py
-    - codecov
+after_success:
+  - codecov
 branches:
   only:
     - master
