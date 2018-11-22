@@ -31,7 +31,7 @@ def mune():
     print('3.退出程序')
     var=int(input())
     if var == 1 :
-        sanjiaoxing()
+        yuanxing()
     elif var == 2 :
         square()
     elif var == 0:
