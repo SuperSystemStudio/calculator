@@ -7,7 +7,6 @@ install:
 script:
     - pip install --upgrade pyflakes
     - pyflakes main.py
-    - coverage run main.py
     - codecov
 branches:
   only:
