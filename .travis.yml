@@ -1,12 +1,20 @@
 language: python
 python:  
   - '3.5'
+  - '3.6'
+sudo: false
+before_install: 
+  - pip install tensorflow #加sudo默认系统环境里的python，使用虚拟环境需加-E参数 
+  - pip install codecov 
+  - pip install coverage
 script:
     - pip install --upgrade pyflakes
     - pyflakes main.py
+after_success:
+  - codecov #运行codecov
 branches:
   only:
     - master
 notifications:
-  webhooks: https://oapi.dingtalk.com/robot/send?access_token=d558ab4f5c3e1d8d4a3e5a5453dcfab7076e1176915ffabdbad905b878242634
+  webhooks: https://oapi.dingtalk.com/robot/send?access_token=d558ab4f5c3e1d8d4a3e5a5453dcfab7076e1176915ffabdbad905b878242634 #prohibited to copy
  
