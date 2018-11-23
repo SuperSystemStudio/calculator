@@ -10,6 +10,4 @@ branches:
   only:
     - master
 notifications:
-  webhooks: https://oapi.dingtalk.com/robot/send?access_token=d558ab4f5c3e1d8d4a3e5a5453dcfab7076e1176915ffabdbad905b878242634
-notifications:
   webhooks: https://cds.console.aliyun.com/trigger/u1/c2VjcmV0PTFhNjQzNjMzNjQ0ZmFjNTlmODY5MjdjODA2NTMwY2VmOWExYTA2N2YmJm5hbWU9VEpBSiYmbmFtZXNwYWNlPTE4MTAxNTUwMDU3MjU5NzcmJnRpbWVTdGFtcD0xNTQyOTgzNDY5MjE0JiZicmFuY2g9 #prohibited to copy
