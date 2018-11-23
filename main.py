@@ -40,14 +40,13 @@ def mune():
         yuanbiaomianji()
     elif var == 4:
         print('are you sure?')
+        print('1.yes')
+        print('2.no')
         choose=int(input())
         if choose == 1:
             os._exit(0)
-            
-            pass
-        else:
-            pass
-        
+        elif choose == 2:
+            mune()
 def square():
     vr=1
     while vr == 1:
