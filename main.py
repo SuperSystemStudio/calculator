@@ -6,7 +6,6 @@ def yuanxing() :
     while vr == 1 :
         print('请输入一个数字，我们将计算它的圆面积：')
         time.sleep(1)
-        π=3.14
         r=eval(input())
         if 10000000>= r >0:
             pf=r*r
@@ -14,7 +13,7 @@ def yuanxing() :
             time.sleep(1)
             print('正在计算')
             time.sleep(3)
-            print('圆的面积为:',pf*π)
+            print('圆的面积为:',pf* )
             time.sleep(0.5)
             print('计算完成')
         elif r == 0:
@@ -77,7 +76,6 @@ def yuanbiaomianji():
         print('正在加载')
         time.sleep(0.5)
         print('请输入半径')
-        π=3.14
         r=eval(input())
         if 10000000>= r >0:
             pf=r*r
@@ -114,3 +112,4 @@ print('         2.禁止输入字母')
 print('         3.禁止输入类似于05、04这样的文字')
 time.sleep(0.5)
 mune()
+# Global variable area
