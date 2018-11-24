@@ -113,3 +113,4 @@ print('         3.禁止输入类似于05、04这样的文字')
 time.sleep(0.5)
 mune()
 # Global variable area
+π=3.14
