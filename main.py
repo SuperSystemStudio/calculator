@@ -13,7 +13,7 @@ def yuanxing() :
             time.sleep(1)
             print('正在计算')
             time.sleep(3)
-            print('圆的面积为:',pf* )
+            print('圆的面积为:',pf*π )
             time.sleep(0.5)
             print('计算完成')
         elif r == 0:
