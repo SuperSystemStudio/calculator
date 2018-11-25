@@ -1,5 +1,6 @@
 import time
 import os
+# function
 def yuanxing() :
     time.sleep(0.5)
     vr=1
@@ -18,10 +19,10 @@ def yuanxing() :
             print('计算完成')
         elif r == 0:
             vr=vr-1
-            mune()
+            menu()
         else:
             print('error')               
-def mune():
+def menu():
     print('请选择你要选择的选项')
     print('0.返回上级菜单')
     print('1.圆面积计算')
@@ -34,7 +35,7 @@ def mune():
     elif var == 2 :
         square()
     elif var == 0:
-        mune()
+        menu()
     elif var == 3:
         yuanbiaomianji()
     elif var == 4:
@@ -45,7 +46,7 @@ def mune():
         if choose == 1:
             os._exit(0)
         elif choose == 2:
-            mune()
+            menu()
 def square():
     vr=1
     while vr == 1:
@@ -54,14 +55,14 @@ def square():
         a=eval(input())
         if a == 0:
             vr=vr-1
-            mune()
+            menu()
         else:
             time.sleep(0.5)
             print('请输入b的长度')
             b=eval(input())
             if b == 0:
                 vr=vr-1
-                mune()
+                menu()
             else:    
                 print('长为',a ,'宽为',b)
                 time.sleep(1)
@@ -88,20 +89,21 @@ def yuanbiaomianji():
             print('请输入长')
             a=eval(input())
             if a == 0:
-                mune()
+                menu()
             else:
                 print('请输入宽')
                 b=eval(input())
                 if b == 0:
-                    mune()
+                    menu()
                 else:
                     print('正在计算')
                     print('圆的表面积为',a*b+2*yuanmianji)
         elif r == 0:
             vr=vr-1
-            mune()
+            menu()
         else:
             print('error')
+# head
 print('软件加载成功')
 time.sleep(0.5)
 print('作者：Mr.yan')
@@ -111,6 +113,6 @@ print('         1.禁止输入<0或>100000000的数')
 print('         2.禁止输入字母')
 print('         3.禁止输入类似于05、04这样的文字')
 time.sleep(0.5)
-mune()
-# Global variable area
+menu()
+# Global variable
 π=3.14
