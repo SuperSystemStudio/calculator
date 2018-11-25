@@ -6,7 +6,7 @@ time.sleep(0.5)
 print('检查.travis.yml是否存在')
 time.sleep(0.5)
 if os.path.exists('.travis.yml'): # 如果文件存在
-    #删除文件，可使用以下两种方法。
+    # 删除文件，可使用以下两种方法。
     print('检查到.travis.yml')
     time.sleep(0.5)
     print('正在处理')
@@ -17,7 +17,7 @@ if os.path.exists('.travis.yml'): # 如果文件存在
     #os.unlink(my_file)
 else:
     print('no such file .travis.yml')
-# function
+# function list
 def yuanxing() :
     time.sleep(0.5)
     vr=1
@@ -131,5 +131,5 @@ print('         2.禁止输入字母')
 print('         3.禁止输入类似于05、04这样的文字')
 time.sleep(0.5)
 menu()
-# Global variable
+# Global variable list
 π=3.14
