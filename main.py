@@ -1,7 +1,7 @@
 import time
 import os
 # Global variable list
-v=3.14
+π=3.14
 # Inspection Center
 print('检查中心正在检查')
 time.sleep(0.5)
@@ -33,7 +33,7 @@ def yuanxing() :
             time.sleep(1)
             print('正在计算')
             time.sleep(3)
-            print('圆的面积为:',pf*v)
+            print('圆的面积为:',pf*π)
             time.sleep(0.5)
             print('计算完成')
         elif r == 0:
@@ -104,7 +104,7 @@ def yuanbiaomianji():
             print('正在计算')
             time.sleep(0.5)
             print('计算完成')
-            yuanmianji=pf*v
+            yuanmianji=pf*π
             print('请输入长')
             a=eval(input())
             if a == 0:
