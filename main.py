@@ -1,5 +1,6 @@
 import time
 import os
+import InspectionCenter
 # Global variable list
 π=3.14
 # Inspection Center
