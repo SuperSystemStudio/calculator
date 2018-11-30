@@ -1,3 +1,5 @@
+import os
+import time
 def main():
     # Inspection Center
     print('检查中心正在检查')
