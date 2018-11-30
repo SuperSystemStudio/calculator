@@ -6,8 +6,9 @@ before_install:
   - pip install --upgrade pyflakes
 script:
   - pyflakes main.py
+  - pyflakes InspectionCenter.py
 branches:
   only:
     - master
 notifications:
-  webhooks: https://oapi.dingtalk.com/robot/send?access_token=[access_token]
+  webhooks: https://oapi.dingtalk.com/robot/send?access_token=${access_token}
