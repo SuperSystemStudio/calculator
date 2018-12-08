@@ -3,7 +3,7 @@ import os
 import basic
 basic.remove
 # Global variable list
-π=3.14
+pai=3.14
 # function list
 def yuanxing() :
     time.sleep(0.5)
@@ -18,7 +18,7 @@ def yuanxing() :
             time.sleep(1)
             print('正在计算')
             time.sleep(3)
-            print('圆的面积为:',pf*π)
+            print('圆的面积为:',pf*pai)
             time.sleep(0.5)
             print('计算完成')
         elif r == 0:
@@ -98,7 +98,7 @@ def yuanbiaomianji():
             print('正在计算')
             time.sleep(0.5)
             print('计算完成')
-            yuanmianji=pf*π
+            yuanmianji=pf*pai
             print('请输入长')
             a=eval(input())
             if a == 0:
