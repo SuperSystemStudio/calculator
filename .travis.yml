@@ -6,5 +6,4 @@ before_install:
   - pip install --upgrade pyflakes
 script:
   - pyflakes main.py
-notifications:
-  webhooks: [webhooks]
+  - pyflakes download.pyv
