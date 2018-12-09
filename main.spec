@@ -3,7 +3,7 @@
 block_cipher = None
 
 
-a = Analysis(['main.py', 'language.py', 'basic.py', 'download.py'],
+a = Analysis(['main.py', 'basic.py'],
              pathex=['H:\\my\\calculator215'],
              binaries=[],
              datas=[],
