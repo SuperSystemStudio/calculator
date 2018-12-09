@@ -1,5 +1,6 @@
 import os
 import time
+import download
 def remove():
     # Inspection Center
     print('检查中心正在检查')
