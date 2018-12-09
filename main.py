@@ -3,7 +3,7 @@ import os
 import basic
 basic.remove
 # Global variable list
-pai=3.14
+pai=3.14    #This is π
 # function list
 def yuanxing() :
     time.sleep(0.5)
@@ -13,12 +13,11 @@ def yuanxing() :
         time.sleep(1)
         r=eval(input())
         if 10000000>= r >0:
-            pf=r*r
             print('获得半径为：',r)
             time.sleep(1)
-            print('正在计算')
+            print('正在计算')            
             time.sleep(3)
-            print('圆的面积为:',pf*pai)
+            print(pai*r*r)
             time.sleep(0.5)
             print('计算完成')
         elif r == 0:
