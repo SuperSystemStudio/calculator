@@ -1,7 +1,7 @@
 import time
 import os
 import basic
-basic.remove
+basic.remove()
 # Global variable list
 pai=3.14    #This is π
 # function list
