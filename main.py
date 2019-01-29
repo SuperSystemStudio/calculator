@@ -1,26 +1,9 @@
 import time
 import os
-import InspectionCenter
-InspectionCenter.main
+import basic
+basic.remove()
 # Global variable list
-π=3.14
-# Inspection Center
-print('[info]检查中心正在检查')
-time.sleep(0.5)
-print('[info]检查.travis.yml是否存在')
-time.sleep(0.5)
-if os.path.exists('.travis.yml'): # 如果文件存在
-    # 删除文件，可使用以下两种方法。
-    print('[info]检查到.travis.yml')
-    time.sleep(0.5)
-    print('[info]正在处理')
-    time.sleep(0.5)
-    os.remove('.travis.yml') # 则删除
-    time.sleep(0.5)
-    print('[info]处理完成')
-    #os.unlink(my_file)
-else:
-    print('no such file .travis.yml')
+pai=3.14    #This is π
 # function list
 def yuanxing() :
     time.sleep(0.5)
@@ -30,12 +13,11 @@ def yuanxing() :
         time.sleep(1)
         r=eval(input())
         if 10000000>= r >0:
-            pf=r*r
             print('获得半径为：',r)
             time.sleep(1)
-            print('正在计算')
+            print('正在计算')            
             time.sleep(3)
-            print('圆的面积为:',pf*π)
+            print(pai*r*r)
             time.sleep(0.5)
             print('计算完成')
         elif r == 0:
@@ -50,6 +32,7 @@ def menu():
     print('2.正方形面积计算')
     print('3.圆的表面积计算')
     print('4.关闭程序')
+    print('5.设置')
     var=int(input())
     if var == 1 :
         yuanxing()
@@ -68,6 +51,14 @@ def menu():
             os._exit(0)
         elif choose == 2:
             menu()
+    elif var == 5:
+        print('1.设置语言')
+        var=int(input())
+        if var == 0:
+            menu()
+        elif var == 1:
+            basic.language
+            pass
 def square():
     vr=1
     while vr == 1:
@@ -106,7 +97,7 @@ def yuanbiaomianji():
             print('正在计算')
             time.sleep(0.5)
             print('计算完成')
-            yuanmianji=pf*π
+            yuanmianji=pf*pai
             print('请输入长')
             a=eval(input())
             if a == 0:

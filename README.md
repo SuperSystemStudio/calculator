@@ -2,9 +2,9 @@
 This is a Graphic Area Calculator.
 
 ---
-first,if you are a chinese,you should go to there [![gitee](https://img.shields.io/badge/gitee-Chinese-blue.svg)](https://gitee.com/SuperSystemStudio/area_calculator)
+# if you are a chinese
+first,you should go to there [![gitee](https://img.shields.io/badge/gitee-Chinese-blue.svg)](https://gitee.com/SuperSystemStudio/area_calculator)
+# f you are a 
 
-If you support me,you should go to there [![afdian](https://img.shields.io/badge/sponsor-afdian-blue.svg)](https://afdian.net/@SuperSystemStudio)
-
----
-if you are a 
+# about support
+you should go to there [![afdian](https://img.shields.io/badge/sponsor-afdian-blue.svg)](https://afdian.net/@SuperSystemStudio) or there[![]()]()

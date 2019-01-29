@@ -1,6 +1,6 @@
 import os
 import time
-def main():
+def remove():
     # Inspection Center
     print('检查中心正在检查')
     time.sleep(0.5)
@@ -18,3 +18,7 @@ def main():
         #os.unlink(my_file)
     else:
         print('no such file .travis.yml')
+def language():
+    languages = 'language.yml'
+    open(5,wb)
+
